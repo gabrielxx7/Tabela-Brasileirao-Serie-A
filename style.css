@@ -1,0 +1,63 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #000000;
+    padding: 8px;
+    text-align: left;
+}
+
+tr:hover {
+    background-color: #8cdb3d;
+}
+
+tr:hover {
+    filter: brightness(1.0);}
+
+.top4 {
+    background-color: #90ee90; 
+}
+
+.libertadores {
+    background-color: #2e8b57;
+    color: #ffffff;
+}
+
+.sulamericana {
+    background-color: #add8e6; 
+}
+
+.meio {
+    background-color: #000000;
+    color: white;
+}
+
+.rebaixamento {
+    background-color: #d60101db; 
+}
+
+.fundo-texto {
+    background-image: url('img/papel-parede.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 60px;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    text-shadow: 4px 4px 4px #000;
+    position: relative; 
+}
+
+.categorias-lado-direito {
+    position: absolute;
+    top: 90px;
+    right: 60px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    transform: none;
+    color: white;
+    text-shadow: 1px 1px 2px black; 
+}
